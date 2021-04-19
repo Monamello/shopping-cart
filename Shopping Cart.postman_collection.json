@@ -1,0 +1,121 @@
+{
+	"info": {
+		"_postman_id": "194e4841-632f-452f-9e01-a64a214ab862",
+		"name": "Shopping Cart",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Update",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"total\": 0,\n    \"subtotal\": 0.0,\n    \"products\": \n    [{\n        \"name\": \"Batata Baroa\",\n        \"stock\": true,\n        \"quant_stock\": 12,\n        \"price\": 12.55\n    },\n    {\n        \"name\": \"Batata Inglesa\",\n        \"stock\": true,\n        \"quant_stock\": 5,\n        \"price\": 15.55\n    },\n    {\n        \"name\": \"Batata Monalisa\",\n        \"stock\": true,\n        \"quant_stock\": 2,\n        \"price\": 30.50\n    },\n    {\n        \"name\": \"Batata Doce\",\n        \"stock\": true,\n        \"quant_stock\": 20,\n        \"price\": 5.60\n    }]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3333/cart",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3333",
+					"path": [
+						"cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"total\": 0,\n    \"subtotal\": 0.0,\n    \"products\": \n    [{\n        \"name\": \"Batata Baroa\",\n        \"stock\": true,\n        \"quant_stock\": 12,\n        \"price\": 12.55\n    },\n    {\n        \"name\": \"Batata Inglesa\",\n        \"stock\": true,\n        \"quant_stock\": 5,\n        \"price\": 15.55\n    },\n    {\n        \"name\": \"Batata Monalisa\",\n        \"stock\": true,\n        \"quant_stock\": 2,\n        \"price\": 30.50\n    },\n    {\n        \"name\": \"Batata Doce\",\n        \"stock\": true,\n        \"quant_stock\": 20,\n        \"price\": 5.60\n    }]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3333/cart",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3333",
+					"path": [
+						"cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"total\": 0,\n    \"subtotal\": 0.0,\n    \"products\": \n    [{\n        \"name\": \"Batata Baroa\",\n        \"stock\": true,\n        \"quant_stock\": 12,\n        \"price\": 12.55\n    },\n    {\n        \"name\": \"Batata Inglesa\",\n        \"stock\": true,\n        \"quant_stock\": 5,\n        \"price\": 15.55\n    },\n    {\n        \"name\": \"Batata Monalisa\",\n        \"stock\": true,\n        \"quant_stock\": 2,\n        \"price\": 30.50\n    },\n    {\n        \"name\": \"Batata Doce\",\n        \"stock\": true,\n        \"quant_stock\": 20,\n        \"price\": 5.60\n    }]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3333/cart",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3333",
+					"path": [
+						"cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"total\": 0,\n    \"subtotal\": 0.0,\n    \"products\": \n    [{\n        \"name\": \"Batata Baroa\",\n        \"stock\": true,\n        \"quant_stock\": 12,\n        \"price\": 12.55\n    },\n    {\n        \"name\": \"Batata Inglesa\",\n        \"stock\": true,\n        \"quant_stock\": 5,\n        \"price\": 15.55\n    },\n    {\n        \"name\": \"Batata Monalisa\",\n        \"stock\": true,\n        \"quant_stock\": 2,\n        \"price\": 30.50\n    },\n    {\n        \"name\": \"Batata Doce\",\n        \"stock\": true,\n        \"quant_stock\": 20,\n        \"price\": 5.60\n    }]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3333/cart",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3333",
+					"path": [
+						"cart"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
